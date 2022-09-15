@@ -1,0 +1,35 @@
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 65.63px;
+}
+
+.sub-heading {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32.81px;
+}
+
+p, .list li {
+    color: #A2AAB8;
+}
+
+.list li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    padding-bottom: 1rem;
+}
+
+.list li::marker {
+    color: #7A76FF;
+}
+
+@media(max-width: 778px) {
+    h1 {
+        font-size: 38px;
+    }
+    .sub-heading {
+        font-size: 24px;
+    }
+}

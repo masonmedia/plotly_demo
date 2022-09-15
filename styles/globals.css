@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import './text.css';
+@import './buttons.css';
+@import './forms.css';
+@import './colors.css';
+@import './utilities.css';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  color: #1E1E1E;
+  /* --text2: #333333; */
+  background: #ffffff;
+  /* --bg: #ffffff; */
+}
+
+main.dark, main.list {
+  color: #ffffff;
+  background: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  main {
+    color: #ffffff;
+    background: #000000;
+  }
+
+  main.light {
+    color: #1E1E1E;
+    background: #ffffff;
+  }
+}
