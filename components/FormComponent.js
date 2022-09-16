@@ -3,7 +3,7 @@ export default function FormComponent(props) {
         <>
           {/* form desktop */}
           <div className={'col-lg-6 d-none d-lg-flex flex-column justify-content-start align-items-start p-5 mt-lg-4 border rounded-xl shadow position-absolute ' + (props.formClass)}
-          style={{top: '100px', right: '40px' }}>
+          style={{top: '100px', right: '40px', zIndex: '100' }}>
 
           <form action="#" className="w-100">
           {/* radios */}
