@@ -6,9 +6,7 @@ A repo for Plotly landing page mockup reproduction.
 
 ### UI framework
 
-I used Next.js and Bootstrap 5 for the UI (as-is, without a wrapper library like React Bootstrap).
-
-I went this route as given the timeframe, both React/Next and Chakra UI were new frameworks for me. I had to focus on learning/refreshing React/Next skills (coming from a Vue.js background), and it made more sense to use a UI/CSS framework I have experience with to cut down on time while still providing a quality reproduction of the mockup.
+I used Next.js and Bootstrap 5 for the UI. I went this route as given the timeframe, both React/Next and Chakra UI were new frameworks for me. I had to focus on learning/refreshing React/Next skills (coming from a Vue.js background), and it made more sense to use a UI/CSS framework I have experience with, both to cut down on time and still provide a quality reproduction of the mockup.
 
 ### Dark mode
 
