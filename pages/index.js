@@ -1,10 +1,13 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import { useState } from 'react';
 import FormComponent from '../components/FormComponent'
 import LogosComponent from '../components/LogosComponent'
 import NavComponent from '../components/NavComponent'
 import ImageComponent from '../components/ImageComponent'
-import TextComponent from '../components/TextComponent';
+import TextComponent from '../components/TextComponent'
+import logoLight from '../public/img/logo_light.png'
+import logoDark from '../public/img/logo_dark.png'
 
 export default function Home() {
   const [theme, setTheme] = useState('light');
@@ -25,9 +28,11 @@ export default function Home() {
         {/* nav */}
         <NavComponent setMode={switchTheme} btnClass={'btn-purple'}
         one={theme === 'light' ?
-          <img src="/logo_light.png" alt="" width="100" height="auto" />
+          // <img src="/logo_light.png" alt="" width="100" height="auto" />
+          <Image src={logoLight} width="100" height="30" className="w-100" />
           :
-          <img src="/logo_dark.png" alt="" width="100" height="auto" />
+          // <img src="/logo_dark.png" alt="" width="100" height="auto" />
+          <Image src={logoDark} className="w-100" width="100" height="30" />
         }
         two={theme === 'light' ? 
           <div className="d-flex justify-content-center align-items-center">
