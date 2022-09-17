@@ -69,11 +69,11 @@ export default function FormComponent(props) {
           {/* end form desktop */}
 
             {/* form mobile */}
-          <div className="px-4 d-block d-lg-none">
-            <div className={'col-sm-12 d-flex d-lg-none flex-column justify-content-start align-items-start p-5 mt-0 border rounded-xl shadow position-relative ' + (props.formClass)}
+          <div className="px-2 px-md-4 d-block d-lg-none">
+            <div className={'col-sm-12 d-flex d-lg-none flex-column justify-content-start align-items-start p-4 p-md-5 mt-0 border rounded-xl shadow position-relative ' + (props.formClass)}
             style={{ zIndex: '2' }}>
 
-            <form action="#" className="w-100">
+            <form action="#" method="POST" className="w-100">
             {/* radios */}
               <div className="row pb-4">
                 <div className="col">
