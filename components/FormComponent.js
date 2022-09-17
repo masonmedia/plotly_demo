@@ -5,7 +5,7 @@ export default function FormComponent(props) {
           <div className={'col-lg-6 d-none d-lg-flex flex-column justify-content-start align-items-start p-5 mt-lg-4 border rounded-xl shadow position-absolute ' + (props.formClass)}
           style={{top: '100px', right: '40px', zIndex: '100' }}>
 
-          <form action="#" className="w-100">
+          <form action="#" method="POST" className="w-100">
           {/* radios */}
             <div className="row pb-4">
               <div className="col">

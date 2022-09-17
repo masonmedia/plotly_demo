@@ -6,15 +6,15 @@ A repo for Plotly landing page mockup reproduction.
 
 ### UI framework
 
-I used Next.js and Bootstrap 5 for the UI. I went this route as given the timeframe, both React/Next and Chakra UI were new frameworks for me. I had to focus on learning/refreshing React/Next skills (coming from a Vue.js background), and it made more sense to use a UI/CSS framework I have experience with, both to cut down on time and still provide a quality reproduction of the mockup.
+I used Next.js and Bootstrap 5 for the UI. I went this route as given the timeframe, both React/Next and Chakra UI were new frameworks for me. I had to focus on learning/refreshing React/Next skills (coming from a Vue.js background), and it made more sense to use a UI/CSS framework that I have experience with, both to cut down on time and still provide a quality reproduction of the mockup.
 
 ### Dark mode
 
-For the dark mode feature, I chose to implement a single button instead of a dropdown.  While obviously a departure from the mockup,the thinking behind this is that it removes a step for the user to not have to click a dropdown, then select an option.
+For the dark mode feature, I chose to implement a single button instead of a dropdown.  While obviously a departure from the mockup, the thinking behind this is that it removes a step for the user to not have to click a dropdown, *then* select an option.
 
-Additionally, the button changes state to reflect the mode that is NOT currently selected: i.e. If light mode is currently active, 'Dark' + the dark icon will show in the button.  This tends to follow common practice where the user is shown not what currently is active, but the available option that will change the UI.
+Additionally, the button changes state to reflect the mode that is NOT currently selected: i.e. If light mode is currently active, 'Dark' + the dark icon will show in the button.  This tends to follow common practice where a dark mode select shows *not* what is currently active, but the available option that will change the UI.
 
-I also made the dark mode select button the same purple as the form submit in an effort to create consistency in the UI.
+I also styled the dark mode select button the same purple as the form submit in an effort to create consistency in the UI.
 
 ## Getting Started
 
