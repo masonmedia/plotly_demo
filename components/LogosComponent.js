@@ -13,30 +13,30 @@ export default function LogosComponent() {
                 <div className="row w-100">
                   <div className="col d-flex justify-content-center align-items-center px-2 py-4">
                     {/* <img src="/img/logos/colgate.png" alt=""/> */}
-                    <Image src={colgate} />
+                    <Image src={colgate} alt="Colgate logo" />
                   </div>
                   <div className="col d-flex d-flex justify-content-center align-items-center px20 py-4">
                     {/* <img src="/img/logos/nvidia.png" alt=""/> */}
-                    <Image src={nvidia} />
+                    <Image src={nvidia} alt="nvidia logo" />
                   </div>
                   <div className="col d-flex d-flex justify-content-center align-items-center px20 py-4">
                     {/* <img src="/img/logos/kc.png" alt="" width="75px"/> */}
-                    <Image src={kc} width='75px' />
+                    <Image src={kc} width='75px' alt="Kansas City Chiefs logo" />
                   </div>
                 </div>
 
                 <div className="row w-100">
                   <div className="col d-flex d-flex justify-content-center align-items-center px20 py-4">
                     <img src="/img/logos/jazz.png" alt=""/>
-                    <Image src={jazz} />
+                    <Image src={jazz} alt="Utah Jazz logo" />
                   </div>
                   <div className="col d-flex d-flex justify-content-center align-items-center px20 py-4">
                     {/* <img src="/img/logos/tmobile.png" alt=""/> */}
-                    <Image src={tmobile} />
+                    <Image src={tmobile} alt="tmobile logo" />
                   </div>
                   <div className="col d-flex d-flex justify-content-center align-items-center px20 py-4">
                     {/* <img src="/img/logos/tva.png" alt="" width="75px"/> */}
-                    <Image src={tva} width='75px' />
+                    <Image src={tva} width='75px' alt="TVA logo" />
                   </div>
                 </div>
             </div>

@@ -8,6 +8,8 @@ import ImageComponent from '../components/ImageComponent'
 import TextComponent from '../components/TextComponent'
 import logoLight from '../public/img/logo_light.png'
 import logoDark from '../public/img/logo_dark.png'
+import sun from '../public/img/icons/sun.svg'
+import moon from '../public/img/icons/moon.svg'
 
 export default function Home() {
   const [theme, setTheme] = useState('light');
@@ -28,20 +30,18 @@ export default function Home() {
         {/* nav */}
         <NavComponent setMode={switchTheme} btnClass={'btn-purple'}
         one={theme === 'light' ?
-          // <img src="/logo_light.png" alt="" width="100" height="auto" />
-          <Image src={logoLight} width="100" height="30" className="w-100" />
+          <Image src={logoLight} alt="Plotly light mode logo" width="100" height="30" className="w-100" priority />
           :
-          // <img src="/logo_dark.png" alt="" width="100" height="auto" />
-          <Image src={logoDark} className="w-100" width="100" height="30" />
+          <Image src={logoDark} alt="Plotly dark mode logo" className="w-100" width="100" height="30" />
         }
         two={theme === 'light' ? 
           <div className="d-flex justify-content-center align-items-center">
-          <img src="/img/icons/mooon.svg" width="20px" className="me-2" />
-          <span className="m-0">Dark</span>
+            <Image src={moon} alt="Plotly dark mode moon logo" className="w-100" width="20" height="20" />
+          <span className="ms-1">Dark</span>
           </div> : 
           <div className="d-flex justify-content-center align-items-center">
-          <img src="/img/icons/sun.svg" width="20px" className="me-2" />
-          <span className="m-0">Light</span>
+            <Image src={sun} alt="Plotly light mode sun logo" className="w-100" width="22" height="22" />
+          <span className="ms-1">Light</span>
           </div>
           }
         />
