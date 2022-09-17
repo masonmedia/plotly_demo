@@ -30,9 +30,9 @@ export default function Home() {
         {/* nav */}
         <NavComponent setMode={switchTheme} btnClass={'btn-purple'}
         one={theme === 'light' ?
-          <Image src={logoLight} alt="Plotly light mode logo" width="100" height="30" className="w-100" priority />
+          <Image src={logoLight} alt="Plotly light mode logo" width="110" height="30" className="w-100" priority />
           :
-          <Image src={logoDark} alt="Plotly dark mode logo" className="w-100" width="100" height="30" />
+          <Image src={logoDark} alt="Plotly dark mode logo" className="w-100" width="110" height="30" />
         }
         two={theme === 'light' ? 
           <div className="d-flex justify-content-center align-items-center">
