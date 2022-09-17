@@ -91,47 +91,50 @@ export default function FormComponent(props) {
               </div>
               
               {/* fields */}
-              <div className="row w-100">
-                <div className="col-md-6 pb-3">
+              <div className="row w-100 mx-0">
+                <div className="col-md-6 pb-3 px-0">
                   <label htmlFor="input1" className="form-label">First name*</label>
                   <input type="text" className="form-control" placeholder="" aria-label="First name*" required />
                 </div>
-                <div className="col-md-6 pb-3">
+                <div className="col-md-6 pb-3 px-0">
                   <label htmlFor="input2" className="form-label">Last name*</label>
                   <input type="text" className="form-control" placeholder="" aria-label="Last name*" required />
                 </div>
               </div>
               
-              <div className="row w-100">
-                <div className="col-md-6 pb-3">
+              <div className="row w-100 mx-0">
+                <div className="col-md-6 pb-3 px-0">
                   <label htmlFor="input3" className="form-label">Business email*</label>
                   <input type="text" className="form-control" placeholder="" aria-label="Business email*" />
                 </div>
-                <div className="col-md-6 pb-3">
+                <div className="col-md-6 pb-3 px-0">
                   <label htmlFor="input4" className="form-label">Phone*</label>
                   <input type="text" className="form-control" placeholder="" aria-label="Phone*" />
                 </div>
               </div>
               
-              <div className="row w-100">
-                <div className="col-md-6 pb-3">
+              <div className="row w-100 mx-0">
+                <div className="col-md-6 pb-3 px-0">
                   <label htmlFor="input5" className="form-label">Company name*</label>
                   <input type="text" className="form-control" placeholder="" aria-label="Company name" />
                 </div>
-                <div className="col-md-6 pb-3">
+                <div className="col-md-6 pb-3 px-0">
                   <label htmlFor="input1" className="form-label">Title*</label>
                   <input type="text" className="form-control" placeholder="" aria-label="Title" />
                 </div>
               </div>
               
-              <div className="row w-100">
-                <div className="col-md-12 pb-3">
+              <div className="row w-100 mx-0">
+                <div className="col-md-12 pb-3 px-0">
                   <label htmlFor="exampleFormControlTextarea1" className="form-label">Tell us about your project*</label>
                   <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
               </div>
 
-              <input className="btn btn-purple text-uppercase mt-3 px-4" role="button" type="submit" value="submit" />
+              {/* standard button */}
+              <input className="d-none d-sm-block btn btn-purple text-uppercase mt-3 px-4" role="button" type="submit" value="submit" />
+              {/* mobile full width button */}
+              <input className="d-block d-sm-none w-100 btn btn-purple text-uppercase mt-3 px-4" role="button" type="submit" value="submit" />
               </form>
             </div>
 
