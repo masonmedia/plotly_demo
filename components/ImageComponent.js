@@ -6,7 +6,7 @@ export default function ImageComponent() {
         <>
             {/* image desktop */}
             <div className="col-lg-6 d-none d-lg-flex flex-column justify-content-center align-items-center position-relative">
-                <Image src={image} alt="Plotly Dash Club 2022" />
+                <Image src={image} priority alt="Plotly Dash Club 2022" />
             </div>
 
             {/* image mobile */}
